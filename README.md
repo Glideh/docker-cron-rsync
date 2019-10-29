@@ -1,4 +1,4 @@
-# Docker Cron Sync
+# Docker cron rsync
 
 ## Usage
 

@@ -10,7 +10,6 @@ version: "3"
 services:
   rsync:
     image: glide/cron-rsync:0.1
-    build: .
     volumes:
       - ~/.ssh:/host-ssh:ro
       - ./backup:/backup

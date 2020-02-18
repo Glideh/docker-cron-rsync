@@ -25,3 +25,13 @@ Every minute this will be executed:
 ```bash
 rsync -tv toto@example.com:backup/*.tgz /backup
 ```
+
+## Concept
+
+The aim is to be able to mirror files (ie. backups) with a minimal installation required (only Docker)  
+The image is less than 4MB.
+
+In order to synchronize files, rsync is included in the image.  
+Remote host rsyncs are also possible with the included SSH client.
+
+Host SSH keys are used simply by mounting them in the container `~/.ssh:/host-ssh:ro`.

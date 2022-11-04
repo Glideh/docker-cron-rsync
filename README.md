@@ -1,6 +1,6 @@
 # Docker cron rsync
 
-Dockerized scheduled rsync
+Lightweight dockerized scheduled rsync
 
 ## Usage
 

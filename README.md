@@ -1,5 +1,7 @@
 # Docker cron rsync
 
+Dockerized scheduled rsync
+
 ## Usage
 
 Example with a `docker-compose.yml`:

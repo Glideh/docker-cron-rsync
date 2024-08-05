@@ -4,11 +4,9 @@ Lightweight dockerized scheduled rsync
 
 ## Usage
 
-Example with a `docker-compose.yml`:
+Example with a `compose.yml`:
 
 ```yml
-version: "3"
-
 services:
   rsync:
     image: glide/cron-rsync:1.0
